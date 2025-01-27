@@ -17,35 +17,6 @@ def load_config():
         except json.JSONDecodeError as e:
             raise ValueError(f"Ошибка чтения конфигурации: {e}")
 
-# Функция для загрузки конфигурации
-
-# def load_config():
-#     # Загружаем параметры из базы данных
-#     # api_key = get_config('api_key')
-#     # api_secret = get_config('api_secret')
-#     volume_threshold = get_config('volume_threshold')
-#     num_candles = get_config('num_candles')
-#     multiplier = get_config('multiplier')
-
-#     # Если параметр не найден в базе данных, загружаем из конфигурационного файла
-#     if not volume_threshold or not num_candles or not multiplier:
-#         with open("config.json", "r") as f:
-#             config = json.load(f)
-#             volume_threshold = config['volume_threshold']
-#             num_candles = config['num_candles']
-#             multiplier = config['multiplier']
-
-#     return {
-#         'volume_threshold': int(volume_threshold),
-#         'num_candles': int(num_candles),
-#         'multiplier': int(multiplier),
-#     }
-
-
-# # Функция для обновления параметра конфигурации в базе данных
-# def update_user_param(parameter, value):
-#     update_config(parameter, value)
-
 def get_api_key():
     """Получает API ключ из конфигурации."""
     config = load_config()
