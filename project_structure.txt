@@ -1,0 +1,25 @@
+.
+├── config.json
+├── logs
+├── output
+├── project_structure.txt
+├── requirements.txt
+└── src
+    ├── api
+    │   ├── bybit_api.py
+    │   └── __pycache__
+    │       └── bybit_api.cpython-312.pyc
+    ├── check.py
+    ├── data
+    │   ├── json_creator.py
+    │   └── __pycache__
+    │       └── json_creator.cpython-312.pyc
+    ├── main.py
+    ├── __pycache__
+    │   └── main.cpython-312.pyc
+    └── utils
+        ├── config.py
+        └── __pycache__
+            └── config.cpython-312.pyc
+
+11 directories, 12 files

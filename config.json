@@ -1,0 +1,9 @@
+{
+    "api_key": "jQg2GF4sWeNYRRnYbY",
+    "api_secret": "WAV6S98IOMLxOAU8sU2hGzqDoJxW6iIf1Ibh",
+    "telegram_token": "7786092525:AAGG4H2xqI9fnDyZuRePm608AplPjYmtXds",
+    "chat_id": "357402568",
+    "volume_threshold": 100000000,
+    "num_candles": 20,
+    "multiplier": 5
+}

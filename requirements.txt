@@ -1,0 +1,6 @@
+pybit
+requests
+pandas
+datetime
+timedelta
+
